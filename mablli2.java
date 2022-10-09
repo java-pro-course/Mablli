@@ -4,12 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int a = in.nextInt();
-        int i = 1;
-
-        while (i <= a) {
-            if (a % i == 0)
-                System.out.print(i + " ");
+        int i = 0;
+        int j = 10;
+        while (i <= 10) {
+            System.out.print(i + " ");
             i++;
         }
 
